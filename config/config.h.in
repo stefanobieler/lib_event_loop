@@ -1,0 +1,13 @@
+#ifndef EVENT_LOOP_CONFIG_H
+#define EVENT_LOOP_CONFIG_H
+
+#include <stdint.h>
+
+static const char* project_name = "@PROJECT_NAME@";
+static const char* project_version = "@PROJECT_VERSION@";
+
+static const int32_t project_version_major = @PROJECT_VERSION_MAJOR@;
+static const int32_t project_version_minor = @PROJECT_VERSION_MINOR@;
+static const int32_t project_version_patch = @PROJECT_VERSION_PATCH@;
+
+#endif
